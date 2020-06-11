@@ -1,0 +1,336 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html {overflow:  scroll;}
+body {font-family: arial, verdana, san-serif;}
+/*------------wrapper---------------*/
+#wrapper {
+    position: relative;
+    left: 0;
+    width: 100%;
+    box-sizing:  border-box;
+}
+/*-------------END wrapper-------------*/
+/*-------------header------------------*/
+
+#wrapper div#header {
+    width:  100%;
+    height: 55px;
+    background: #111111;
+    color: #c5c5c5;
+    position:  fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    margin: auto 0;
+}
+#header-content {
+    width: 1100px;
+    height: 55px;
+    margin: 0 auto;
+}
+#header div#header-content div#head-menu {
+    width: 600px;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#header div#header-content div#head-menu ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+#header div#header-content div#head-menu ul li {
+    line-height: 55px;
+    height: 55px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    position: relative;
+    display: inline-block;
+}
+#header div#header-content div#head-menu ul li a {
+    text-decoration:  none;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    display: block;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+    color: #CCCCCC;
+    margin: 0 1em;
+}
+#header div#header-content div#head-menu ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+#header div#header-content div#head-menu .sub-menu {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    background-color: #191818f5;
+    width: 120px;
+    padding: 10px;
+}
+#header div#header-content div#head-menu .sub-menu li a {
+    padding: 0px 0px;
+    text-indent: -8px;
+    display: block;
+}
+#header div#header-content div#head-menu ul li:hover .sub-menu {display: block;}
+/*---------------head-right---------------*/
+#header div#header-content div.head-right {
+    z-index: 999;
+    float: right;
+    width: 452px;
+    margin-top: 15px;
+}
+#header div#header-content div.head-right div#visitor {
+    display: inline-block;
+    float: left;
+}
+/*-----------------login------------------*/
+#content div.page-login {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;    
+    display: none;
+    z-index: 9;
+    background: #808080e6;
+}
+#login-email .btn-container input {
+    height: 40px;
+    width: 100px;
+    font-size:  16px;
+    margin-top:  20px;
+    margin-left:  50px;
+    background: #09f;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+input#login-email-password {
+    height: 38px;
+    width: 400px;
+    display: block;
+    margin-left:  50px;
+}
+input#login-email-name {
+    height: 38px;
+    width: 400px;
+    display: block;
+    margin-left: 50px;
+}
+section#login {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height:  500px;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    left: 33%;
+    top: 101px;
+}
+/*-------------login-signup-button----------------*/
+#login-button {
+    float: left;
+    color: #CCCCCC;
+    padding: 0px 20px;
+    margin: -4px 9px;
+    text-decoration: none;
+    border: 1px solid gray;
+    height: 31px;
+    line-height: 31px;
+    border-radius: 6px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px white;
+}
+#login-button a {
+    float: left;
+    display: inline-block;
+}
+#signup-button {
+     float: left;
+     padding: 0px 20px;
+     margin: -4px 1px;
+     text-decoration: none;
+     border: 1px solid gray;
+     height: 31px;
+     width: 116px;
+     line-height: 31px;
+     border-radius: 6px;
+     box-shadow: 0.5px 0.5px 0.5px 0.5px #4CAF50;
+     background: #5cb85c;
+     color: white;
+     text-align:  center;
+}
+#signup-button a {
+    float: left;
+    display: inline-block;
+}
+#signup-button:hover {
+    background: #4cae4c;
+}
+#login h2 {
+    font-weight: bold;
+    font-size: 40px;
+    height: 9px;
+    margin: 39px 50px;
+}
+button.btn.btn-lg.btn-fb {
+    background: #4267b2;
+    margin-left: 50px;
+    height: 48px;
+    width: 185px;
+    color: white;
+    font-weight: bold;
+}
+button.btn.btn-gplus {
+    background:  #DC4D28;
+    height: 48px;
+    width: 185px;
+    margin-left: 26px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a.fa.fa-facebook {
+    margin-left:  50px;
+    font-size: 45px;
+}
+a.fa.fa-google {
+    font-size: 45px;
+}
+a.glyphicon.glyphicon-remove {
+    float:  right;
+    margin: 15px 15px;
+    font-size: 19px;
+}
+
+p.lead {
+    font-size: 14px;
+    color:  gray;
+    margin-left: 50px;
+}
+a.forgot-password {
+    float: right;
+    font-size:  15px;
+    color: gray;
+    margin-top:  30px;
+    margin-right: 48px;
+    text-decoration: none;
+}
+.field label {
+    margin-left:  50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.search {
+    float: left;
+}
+div.black, div.black-signup {
+   
+    height:  100%;
+    width: 100%;
+    background: #808080e6;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    opacity: 0;
+}
+/*--------------------content--------------------*/
+#content {padding:  1em 8em;}
+#content div#mainContainer {
+    padding-left: 112px;
+    padding-top: 40px;
+}
+#content div#mainContainer div#leftColumn div#mainbox h3 {
+    border: 1px solid #E6DB55;
+    height:  30px;
+    width:  648px;
+    line-height: 30px;
+    padding-left: 23px;
+    background: #ff9;
+    border-radius: 9px;
+    padding: 0px 13px;
+    text-shadow: 0 1px white;
+    font-size: 12px;
+    display: block;
+}
+.photoList div.photoListItem div.info {
+    z-index:  1;
+    margin-left: 510px;
+    width: 350px;
+}
+#content div#mainContainer div#leftColumn div#mainbox h2 {
+    font-weight: 800;
+    padding: 5px 0px 0px 10px;
+}
+.photoListItem {
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 10px;
+    padding: 10px 0px 20px;
+}
+.photoList {width: 950px;}
+.photo {float: left;}
+.photo img {
+    width: 480px;
+    height: auto;
+}
+/*-----------------------signup-page---------------------*/
+input.btn-signup-submit {
+    font-size: 20px;
+    background: #0087ff;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 14px 50px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+/*-----------------------page-signup-------------------*/
+.page-signup {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;    
+    display: none;
+    z-index: 9;
+    background: #808080e6;
+}
+section#signup {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height:  500px;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    left: 33%;
+    top: 101px;
+}
+section#signup h2 {
+    font-weight: bold;
+    font-size: 40px;
+    height: 9px;
+    margin: 39px 50px;
+}
+/*-------------------------javascript-------------------*/
+.clear {clear: both;}
+.dixuong {
+    position: fixed;
+    top: 50px;
+}
+.hienlen {
+   display: block!important;
+   z-index: 1000;
+}

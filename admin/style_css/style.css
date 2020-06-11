@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html {overflow:  scroll;}
+body {font-family: arial, verdana, san-serif;}
+html,body { width:100%;height:100%;}
+a { text-decoration: none; }
+.clear {
+    clear: both;
+}
+/* --------------wrapper----------------- */
+#wrapper
+{
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+/* --------------header---------------- */
+#wrapper div#header
+{
+    float: left;
+    width:100%;
+    height: 50px;
+    background: #000000e6;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    border-bottom: solid 1px #8080802b; 
+}
+#header div#left_header h1
+{
+    font-size: 20px;
+    color: #ffffff9e;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 15px 0px 0px 20px;
+    float: left;
+}
+#header div#right_header 
+{
+    float:right;
+    color: #ffffff9e;
+    margin: 15px 15px;
+}
+#symbol
+{
+    float:left;
+    margin-right: 10px;
+}
+#hello
+{
+    float:left;
+    margin-right: 10px;
+}
+#account
+{
+    float:left;
+    margin-right: 10px;
+}
+.detail
+{
+    float:left;
+    margin-right: 10px;
+    color: #ffffff9e;
+}
+.detail .fa
+{
+    color: #ffffff9e;
+}
+#wrapper div#sidebar
+{   
+    margin: 50px 0px 0px 0px;
+    width: 250px;
+    height: 100%;
+    float: left;
+    background: #000000e6;
+}
+#sidebar ul
+{
+    padding: 0px;
+}
+#sidebar ul li
+{
+    list-style: none;
+    display:block;
+    line-height: 50px;
+    padding: 0 0 0 25px;
+    
+   
+}
+#sidebar ul li a 
+{
+    display: block;
+     color: #ffffff9e;
+     text-decoration: none;
+}
+#sidebar ul li:hover 
+{
+	
+    background-color:  #008000ad;
+}
+#sidebar #remove-posts 
+{
+    height: 0px;
+
+}
+/*#sidebar #remove-posts
+{
+	display: none;
+}*/
+#sidebar #dd:active #remove-posts
+{
+	display: block;
+}

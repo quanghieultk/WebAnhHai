@@ -1,0 +1,65 @@
+#header a {
+    text-decoration: none;
+}
+#header div#right_header 
+{
+    float:right;
+    color: #ffffff9e;
+    margin: 15px 0px;
+}
+#symbol
+{
+    float:left;
+    margin-right: 10px;
+}
+#hello
+{
+    float:left;
+    margin-right: 10px;
+}
+#account
+{
+    float:left;
+    margin-right: 10px;
+}
+/*------------------Phần menu detail--------------------------*/
+#detail
+{   
+    width:15px;
+    height:40px;
+    float:right;
+    margin-right: 10px;
+    color: #ffffff9e;
+}
+#detail .fa
+{
+    color: #ffffff9e;
+}
+#menu
+{
+    display: none;
+}
+#menu ul
+{
+    background: white;
+    border: #8080807d solid 1px;
+    margin: 20px 10px 10px 0px;
+    width: 150px;
+    float: right;
+    box-shadow: -1px 1px 1px 1px #808080ab;
+}
+#menu ul li
+{
+    line-height: 30px;
+    text-indent: -20px;
+}
+#menu ul li:last-child
+{
+    margin-top: 15px;
+}
+#menu ul a{
+    color: black;
+
+}
+#header div#header-content div#detail:hover #menu { display:block;}
+#header div#header-content div#head-menu {width: 700px !important;}

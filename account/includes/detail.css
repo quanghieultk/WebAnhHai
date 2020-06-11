@@ -1,0 +1,164 @@
+#content_a
+{
+    width: 100%;
+    height: 100%;
+}
+#mainContainer_a
+{   
+    width: 1100px;
+    margin: 50px auto;
+}
+#leftColumn_a
+{
+    width: 780px;
+    float: left;
+}
+#mainBox
+{
+    padding: 5px 0 0;
+}
+#photoDetails
+{
+    float: left;
+    width: 780px;
+}
+#photoInfo
+{
+    float: left;
+    width: 550px;
+}
+div#photoDetails h1
+{
+    font-size: 20px;
+    margin: 10 0 10px 0px;
+    line-height: 20px;
+    font-weight: bold;
+}
+div#photoDetails .stats
+{
+    font-weight: bold;
+    
+}
+#photoImg
+{
+    width: 750px;
+    text-align: center;
+
+}
+#photoImg img
+{
+    max-width: 600px;
+    margin: 0 auto -30px;
+    overflow: hidden;
+}
+.stats p.view_a
+{
+    margin: 5px 0px 0px 0px;
+    width: 80px;
+    float: left;
+}
+.stats p.number
+{   
+    width: 20px;
+    float: left;
+    margin: 5px 0 0 0px;
+    font-size: 15px;
+    color: #BA0069;
+}
+.stats p.comment_a
+{
+    width:115px;
+    float: left;
+   margin: 4px 0px 0px 0px; 
+}
+.stats p.numbers
+{
+    width: 10px;
+    float: left;
+   margin: 5px 0 0 0; 
+   color: #BA0069;
+}
+.source
+{
+	background: url(../../images/icon_source.png) no-repeat;
+	margin: 45px 0px 0px 10px;
+	width: 400px;
+}
+.source_a
+{
+    float:left;
+}
+.source p.nguon
+{
+    float: left;
+    width:55px;
+    margin: 0px 0 0 20px;
+    font-weight: bold;
+}
+.like_share
+{
+    position: relative;
+    padding: 10px 10px 5px;
+    height: 40px;
+    width: 780px;
+    background-color: #EEE;
+    z-index: 2;
+    margin: 0 0 10px;
+}
+.like_share p.textt
+{
+    line-height: 20px;
+    font-weight: bold;
+    color: #BA0069;
+    float:left;
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+    padding: 0 5px 0 0;
+}
+.like_share div.navButtons
+{
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.like_share div.navButtons a.prev
+{
+    background: url(../../images/icon_prev.png) no-repeat;
+    padding-left: 17px;
+} 
+.like_share div.navButtons a.next
+{
+    background: url(../../images/icon_next.png) no-repeat scroll right;
+    padding-right: 15px;
+    margin-left: 12px;
+}  
+.like_share div.navButtons a
+{
+    text-decoration: none;
+}
+.fbLike
+{
+    float:left;
+    background:#0008ffc9;
+    border-radius: 4px;
+}
+.fbLike div.fbLikeButton
+{   
+    width: 50px;
+    float: left;
+    padding-left:17px;
+    background: url(../../images/icon_like.jpg) no-repeat;
+}
+.fbLike a.button_like
+{
+    color: white;
+    text-decoration: none;
+}
+/* -------rightColumn_a----------- */
+#rightColumn_a
+{
+    width: 310px;
+    height: 1000px;
+    float: right;
+}
